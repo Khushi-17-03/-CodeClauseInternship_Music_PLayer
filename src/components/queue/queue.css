@@ -1,14 +1,14 @@
 .queue-container {
   width: 100%;
   height: 35%;
-  border-radius: 30px;
-  border-top-right-radius: 0px;
+  border-radius: 4vh;
+  /* border-top-right-radius: 0px; */
   background-color: #3e61d2;
   opacity: 1;
   background-image: repeating-radial-gradient(
       circle at 0 0,
       transparent 0,
-      #3e61d2 40px
+      #1fa8af 15vh
     ),
     repeating-linear-gradient(#4767d055, #4767d0);
   flex-direction: column;
@@ -24,11 +24,11 @@
 }
 
 .upNext {
-  font-size: 20px;
+  font-size: 3vh;
   font-weight: 700;
-  color: #fff;
-  text-align: left;
-  margin: 10px 0px;
+  color: #ffffff;
+  text-align:left;
+  margin: 0.51vh 0px;
 }
 
 .queue-list {
@@ -44,8 +44,8 @@
 .queue-item {
   justify-content: space-between;
   width: 100%;
-  padding: 5px 0px;
-  font-size: 14px;
+  padding: 1vh 0px;
+  font-size: 2.2vh;
   font-weight: 500;
   color: #fff;
   cursor: pointer;

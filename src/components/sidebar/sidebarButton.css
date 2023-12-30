@@ -3,22 +3,22 @@ a {
 }
 
 .btn-body{
-    height: 80px;
-    width: 80px;
-    border-radius: 20px;
-    color: #F8D9C0;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 2vh;
+    color: #ADEFD1FF;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 5px auto;
-    transition: all 0.2s ease;
-    background-color: rgba(244, 187, 146,0.0);
+    margin: 1vh auto;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 .btn-body.active{
-    background-color: rgba(244, 187, 146,1);
-    color: #fff;
+    background-color: rgb(2, 157, 103);
+    color: #ffffff;
     transform: scale(1.05);
 }
 
@@ -27,7 +27,7 @@ a {
 }
 
 .btn-title{
-    margin: 4px auto;
+    margin:1vh auto;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 2.2vh;
 }

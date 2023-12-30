@@ -1,10 +1,10 @@
 .albumInfo-card {
-  margin-top: 20px;
+  margin-top: 0.51vh;
   width: 80%;
 }
 
 .albumInfo-card p {
-  margin: 5px auto !important;
+  margin: 0.5vh auto !important;
 }
 
 .albumName-container {
@@ -12,7 +12,7 @@
   overflow: hidden;
   font-size: 20px;
   font-weight: 700;
-  color: #c3d0e3;
+  color: #4331e0;
 }
 
 .marquee {
@@ -32,9 +32,9 @@
 }
 
 .album-info {
-  font-size: 14px;
-  font-weight: 500;
-  color: #9aa9c2;
+  font-size: 2vh;
+  font-weight: 800;
+  color: #2b272b;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -44,8 +44,9 @@
 }
 
 .album-release {
-  font-size: 12px;
-  font-weight: 400;
-  color: #9aa9c2;
-  margin-top: 10px;
+  font-size: 1.7vh;
+  font-weight: 800;
+  color: #aeff00;
+  margin-top: 2vh;
+  margin-left: 8vh;
 }

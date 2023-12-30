@@ -27,7 +27,7 @@ export default function Widgets({ artistID }) {
         .catch((err) => console.error(err));
 
       apiClient
-        .get(`/browse/new-releases`)
+        .get('/browse/new-releases')
         .then((res) => {
           const a = res.data?.albums.items.slice(0, 3);
           setNewRelease(a);

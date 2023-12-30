@@ -14,7 +14,7 @@
   height: 35%;
   border-radius: 20px;
   background-color: rgb(30, 42, 62);
-  border: 1px solid rgba(54, 69, 98, 0.18);
+  border: 0.5vh solid rgba(54, 69, 98, 0.18);
   padding: 1%;
   margin-bottom: 2%;
   background: rgb(30, 42, 62);
@@ -23,7 +23,7 @@
     rgb(40, 58, 88) 0%,
     rgba(54, 69, 98, 0) 100%
   );
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 
@@ -55,10 +55,11 @@
 }
 
 .playlist-subtitle {
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: bold;
+  /* font-weight: 700; */
+  font-size: 2vh;
   margin: 0px;
-  color: #c4d0e37c;
+  color: #0000007c;
 }
 
 .playlist-fade {

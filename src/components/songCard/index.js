@@ -10,4 +10,4 @@ export default function SongCard({ album }) {
       <AlbumInfo album={album} />
     </div>
   );
-}
+  }

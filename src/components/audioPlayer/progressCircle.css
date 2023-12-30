@@ -10,7 +10,9 @@ image.active {
 }
 
 .progress-circle {
-  justify-content: center;
+  position: relative;
+  top:-3vh;
+  /* justify-content:start; */
   align-items: center;
 }
 

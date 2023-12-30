@@ -7,14 +7,15 @@
 }
 
 .albumImage img {
-  border-radius: 30px;
+  margin-top: 5vh;
+  border-radius: 4vh;
   width: 100%;
   aspect-ratio: 1;
 }
 
 .albumImage-shadow {
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(2vh);
+  filter: blur(2vh);
   width: 90%;
   position: absolute;
   z-index: -1;

@@ -15,9 +15,7 @@ export default function Player() {
 
   useEffect(() => {
     if (location.state) {
-      apiClient
-        .get("playlists/" + location.state?.id + "/tracks")
-        .then((res) => {
+      apiClient.get("playlists/" + location.state?.id + "/tracks").then((res) => {
           setTracks(res.data.items);
           setCurrentTrack(res.data?.items[0]?.track);
         });

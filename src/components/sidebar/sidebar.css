@@ -1,5 +1,5 @@
 .sidebar-container{
-    width: 100px;
+    width: 8vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -8,8 +8,8 @@
 }
 
 .profile-img{
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    margin-top: 20px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 2vh;
+    margin-top: 3vh;
 }
