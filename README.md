@@ -1,3 +1,4 @@
+This Project is Created as for Task 1 of CODECLAUSE Internship This Project Connects through your Spotify account and let's you access the Libraries and Playlist in your Spotify account. The project is made using Spotify api. The Video below explains the video explanation about the working of the Music Player . The songs/music played are only played for 30 seconds preview as allowed by Spotify api. In order for the application to work in your System you need to have the following things installed in your system: 1.Node.js 2.REACT , REACT-ROUTER & REACT-ICONS 3.mui-icons 4.@emotion/styled 5.axios 6.web vitals your can install the following in your system via terminal using npm or yarn commans
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
